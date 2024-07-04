@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #4CAF50; /* Verde */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #ffcccc; /* Rojo Claro */
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.about {
+    background-color: #ccccff; /* Azul Claro */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.genres {
+    background-color: #ccffcc; /* Verde Claro */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.genres h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.genres ul {
+    list-style: none;
+    padding: 0;
+}
+
+.genres li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.top-hits {
+    background-color: #ffcc99; /* Naranja Claro */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.top-hits h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.top-hits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.top-hits li {
+    margin: 5px 0;
+}
+
+.top-hits .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.merch {
+    background-color: #ffccff; /* Rosa Claro */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.merch h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.merch .item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+}
